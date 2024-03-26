@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Hello</title>
+    <link rel="stylesheet" href="css/style.css">
     <!-- Vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /Vue js -->
@@ -13,6 +14,7 @@
 <body>
     <div id="app">
         <h1>{{message}}</h1>
+        <img :src="imageSrc" :alt="imageAlt">
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
